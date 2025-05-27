@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  height: 100dvh;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: flex;
+  justify-content: end;
+  border: 0.2px solid white;
+}
+
+.nav_element {
+  color: white;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-style: normal;
+  padding-right: 15px;
+}
+
+h5 {
+  font-weight: 100;
+}
+
+.big_card {
+  border: 0.2px solid white;
+  height: 98dvh;
+}
+
+.info {
+  height: 70dvh;
+  border: 0.2px solid white;
+}
+
+.footer {
+  height: 40dvh;
+  border: 0.2px solid white;
+}
