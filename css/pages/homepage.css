@@ -34,7 +34,7 @@ h5 {
   height: 98dvh;
 }
 
-.info {
+.description {
   height: 70dvh;
   border: 0.2px solid white;
 }
@@ -44,5 +44,41 @@ h5 {
   border: 0.2px solid white;
 }
 
+.info {
+  border: 0.2px solid red;
+  height: fit-content;
+  width: fit-content;
+  padding-left: 6dvh;
+}
+
+.info-2 {
+  display: flex;
+}
+
 .card {
+  display: flex;
+  padding-top: 72dvh;
+}
+
+p {
+  color: white;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 15px;
+  font-size: medium;
+}
+
+#title {
+  padding: 8px;
+}
+
+#year {
+  border: 0.2px solid white;
+  border-radius: 24px;
+  padding: 8px;
+}
+
+#location {
+  padding: 8px;
 }
