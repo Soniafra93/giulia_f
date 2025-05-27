@@ -3,13 +3,18 @@ body {
   height: 100dvh;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .navbar {
-  width: 100%;
+  width: 99%;
   height: auto;
   border-radius: 4px;
   display: flex;
   justify-content: end;
   border: 0.2px solid white;
+  position: fixed;
 }
 
 .nav_element {
@@ -17,6 +22,7 @@ body {
   font-family: "Nanum Gothic Coding", monospace;
   font-style: normal;
   padding-right: 15px;
+  cursor: pointer;
 }
 
 h5 {
@@ -36,4 +42,7 @@ h5 {
 .footer {
   height: 40dvh;
   border: 0.2px solid white;
+}
+
+.card {
 }
