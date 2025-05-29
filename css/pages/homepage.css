@@ -13,7 +13,6 @@ body::-webkit-scrollbar {
   border-radius: 4px;
   display: flex;
   justify-content: end;
-  border: 0.2px solid white;
   position: fixed;
 }
 
@@ -30,7 +29,6 @@ h5 {
 }
 
 .big_card {
-  border: 0.2px solid white;
   height: 98dvh;
 }
 
@@ -45,7 +43,6 @@ h5 {
 }
 
 .info {
-  border: 0.2px solid red;
   height: fit-content;
   width: fit-content;
   padding-left: 6dvh;
@@ -66,7 +63,7 @@ p {
   font-style: normal;
   font-weight: 400;
   margin-right: 15px;
-  font-size: medium;
+  font-size: small;
 }
 
 #title {
