@@ -24,8 +24,9 @@ body::-webkit-scrollbar {
   cursor: pointer;
 }
 
-h5 {
-  font-weight: 100;
+.nav_element p {
+  font-size: small;
+  font-weight: 600;
 }
 
 .big_card_1 {
@@ -98,7 +99,7 @@ p {
   font-style: normal;
   font-weight: 600;
   margin-right: 15px;
-  font-size: medium;
+  font-size: small;
 }
 
 #year {
