@@ -28,8 +28,45 @@ h5 {
   font-weight: 100;
 }
 
-.big_card {
+.big_card_1 {
+  background-image: url(../../images/girotondo.jpeg);
+  background-size: 100vw 100vh;
+  display: flex;
+  padding-top: 80dvh;
+  width: 100dvw;
+}
+
+.big_card_2 {
+  background-image: url(../../images/A\ Tailor\ for\ Ladies.png);
+  background-size: 100vw 100vh;
+  display: flex;
+  padding-top: 80dvh;
+  width: 100dvw;
+}
+
+.big_card_3 {
+  background-image: url(../../images/Aspettando\ Godot.jpg);
+  background-size: 36%;
+  background-repeat: repeat;
+  background-position: center;
+  display: flex;
+  padding-top: 80dvh;
+  width: 100dvw;
+}
+
+.big_card_4 {
+  background-image: url(../../images/Giulia.jpg);
+  background-size: 100vw 100vh;
+  display: flex;
+  padding-top: 80dvh;
+  width: 100dvw;
+  background-size: contain;
+}
+
+.carousel-slide {
+  display: flex;
   height: 98dvh;
+  width: 400dvw;
 }
 
 .description {
@@ -52,30 +89,16 @@ h5 {
   display: flex;
 }
 
-.card {
-  display: flex;
-  padding-top: 72dvh;
-}
-
 p {
   color: white;
   font-family: "Nanum Gothic Coding", monospace;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   margin-right: 15px;
-  font-size: small;
-}
-
-#title {
-  padding: 8px;
+  font-size: medium;
 }
 
 #year {
   border: 0.2px solid white;
   border-radius: 24px;
-  padding: 8px;
-}
-
-#location {
-  padding: 8px;
 }
