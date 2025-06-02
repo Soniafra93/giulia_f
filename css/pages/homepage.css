@@ -29,14 +29,6 @@ h5 {
 }
 
 .big_card_1 {
-  background-image: url(../../images/girotondo.jpeg);
-  background-size: 100vw 100vh;
-  display: flex;
-  padding-top: 80dvh;
-  width: 100dvw;
-}
-
-.big_card_2 {
   background-image: url(../../images/A\ Tailor\ for\ Ladies.png);
   background-size: 100vw 100vh;
   display: flex;
@@ -45,6 +37,14 @@ h5 {
 }
 
 .big_card_3 {
+  background-image: url(../../images/girotondo.jpeg);
+  background-size: 100vw 100vh;
+  display: flex;
+  padding-top: 80dvh;
+  width: 100dvw;
+}
+
+.big_card_4 {
   background-image: url(../../images/Aspettando\ Godot.jpg);
   background-size: 36%;
   background-repeat: repeat;
@@ -54,7 +54,7 @@ h5 {
   width: 100dvw;
 }
 
-.big_card_4 {
+.big_card_2 {
   background-image: url(../../images/Giulia.jpg);
   background-size: 100vw 100vh;
   display: flex;
