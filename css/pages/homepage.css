@@ -26,8 +26,8 @@ body::-webkit-scrollbar {
 }
 
 .nav_element p {
-  font-size: small;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .big_card_1 {
@@ -94,7 +94,7 @@ body::-webkit-scrollbar {
 .info {
   height: fit-content;
   width: fit-content;
-  padding-left: 6dvh;
+  padding-left: 8dvh;
 }
 
 p {
@@ -103,7 +103,8 @@ p {
   font-style: normal;
   font-weight: 600;
   margin-right: 15px;
-  font-size: small;
+  font-size: 14px;
+  text-shadow: 2px 2px 2px rgb(49, 49, 49);
 }
 
 #year {
