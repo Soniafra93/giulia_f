@@ -113,18 +113,18 @@ p {
 
 #prevBtn {
   position: absolute;
-  top: 50%;
-  left: 2%;
+  top: 92%;
+  right: 8%;
   z-index: 10;
-  opacity: 0.5;
+  opacity: 0.8;
   cursor: pointer;
 }
 
 #nextBtn {
   position: absolute;
-  top: 50%;
-  left: 98%;
+  top: 92%;
+  right: 5%;
   z-index: 10;
-  opacity: 0.5;
+  opacity: 0.8;
   cursor: pointer;
 }
