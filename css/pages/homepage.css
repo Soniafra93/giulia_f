@@ -71,7 +71,8 @@ body::-webkit-scrollbar {
 .carousel-container {
   height: 98dvh;
   width: 100dvw;
-  border: 2px solid red;
+  overflow: hidden;
+  position: relative;
 }
 
 .carousel-slide {
@@ -108,4 +109,22 @@ p {
 #year {
   border: 0.2px solid white;
   border-radius: 24px;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  z-index: 10;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  left: 98%;
+  z-index: 10;
+  opacity: 0.5;
+  cursor: pointer;
 }
