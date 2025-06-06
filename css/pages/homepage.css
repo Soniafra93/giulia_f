@@ -85,13 +85,13 @@ body::-webkit-scrollbar {
 
 .description {
   height: 70dvh;
-  margin: 100px 50px;
+  margin: 100px 60px;
 }
 
 .footer {
   height: 40dvh;
   border: 0.2px solid white;
-  margin: 0 50px;
+  margin: 0 80px;
   font-family: "Bebas Neue", sans-serif;
   display: flex;
   justify-content: flex-end;
