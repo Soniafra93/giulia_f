@@ -1,6 +1,9 @@
 body {
   background-color: black;
   height: 100dvh;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body::-webkit-scrollbar {
@@ -19,14 +22,13 @@ body::-webkit-scrollbar {
 
 .nav_element {
   color: white;
-  font-family: "Nanum Gothic Coding", monospace;
   font-style: normal;
   padding-right: 15px;
   cursor: pointer;
 }
 
 .nav_element p {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -83,33 +85,47 @@ body::-webkit-scrollbar {
 
 .description {
   height: 70dvh;
-  border: 0.2px solid white;
+  margin: 0 50px;
 }
 
 .footer {
   height: 40dvh;
   border: 0.2px solid white;
+  margin: 0 50px;
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.info {
+.card .info p {
   height: fit-content;
   width: fit-content;
   padding-left: 8dvh;
+  position: absolute;
+}
+
+.card .info .title {
+  top: 74%;
+  font-size: 38px;
+}
+
+.card .info .location {
+  top: 80%;
+  font-size: 38px;
+}
+
+.card .info .plays {
+  top: 44%;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 p {
   color: white;
-  font-family: "Nanum Gothic Coding", monospace;
   font-style: normal;
   font-weight: 400;
   margin-right: 15px;
-  font-size: 18px;
-  text-shadow: 2px 2px 2px rgb(49, 49, 49);
-}
-
-#year {
-  border: 0.2px solid white;
-  border-radius: 24px;
+  text-shadow: 2px 2px 2px rgb(43, 42, 42);
 }
 
 #prevBtn {
@@ -128,4 +144,17 @@ p {
   z-index: 10;
   opacity: 0.8;
   cursor: pointer;
+}
+
+.description .title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+.description p {
+  font-family: "Space Mono", monospace;
+  font-weight: 100;
+  font-size: 14px;
 }
