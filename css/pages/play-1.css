@@ -92,7 +92,7 @@ p {
 
 .title {
   position: absolute;
-  font-size: 72px;
+  font-size: 48px;
   top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
