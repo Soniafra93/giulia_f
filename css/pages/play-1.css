@@ -47,8 +47,30 @@ body::-webkit-scrollbar {
 }
 
 .description {
-  height: 70dvh;
+  height: 110dvh;
   border: 0.2px solid white;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 55px 25px;
+}
+
+.column-item {
+  font-size: 42px;
+  height: 120.5px;
+  margin: 36px 15px;
+}
+
+.column-2-item {
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  margin: 36px 15px;
+  height: 120.5px;
 }
 
 .footer {
