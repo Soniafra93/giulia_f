@@ -1,6 +1,9 @@
 body {
   background-color: black;
   height: 100dvh;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body::-webkit-scrollbar {
@@ -13,25 +16,34 @@ body::-webkit-scrollbar {
   border-radius: 4px;
   display: flex;
   justify-content: end;
-  border: 0.2px solid white;
   position: fixed;
+  z-index: 1;
 }
 
 .nav_element {
   color: white;
-  font-family: "Nanum Gothic Coding", monospace;
   font-style: normal;
   padding-right: 15px;
   cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-h5 {
-  font-weight: 100;
+.nav_element p {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .big_card {
-  border: 0.2px solid white;
   height: 98dvh;
+  background-image: url(../../images/A\ Tailor\ for\ Ladies.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  height: 98dvh;
+  width: 100dvw;
+  position: relative;
 }
 
 .description {
@@ -42,4 +54,24 @@ h5 {
 .footer {
   height: 40dvh;
   border: 0.2px solid white;
+  margin: 0 80px;
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+
+p {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 15px;
+  text-shadow: 2px 2px 2px rgb(43, 42, 42);
+}
+
+.title {
+  position: absolute;
+  font-size: 72px;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
