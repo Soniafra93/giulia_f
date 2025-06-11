@@ -106,7 +106,7 @@ body::-webkit-scrollbar {
 
 .card .info .title {
   top: 74%;
-  font-size: 38px;
+  font-size: 42px;
 }
 
 .card .info .location {
@@ -150,7 +150,7 @@ p {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: x-large;
+  font-size: 42px;
 }
 
 .description p {
