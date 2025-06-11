@@ -45,8 +45,9 @@ body::-webkit-scrollbar {
 }
 
 .description {
-  height: 110dvh;
   border: 0.2px solid white;
+  border-radius: 4px;
+  margin: 20dvh 0;
 }
 
 .row {

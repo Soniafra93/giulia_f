@@ -84,8 +84,8 @@ body::-webkit-scrollbar {
 }
 
 .description {
-  height: 70dvh;
   margin: 100px 60px;
+  margin: 20dvh 20w;
 }
 
 .footer {
