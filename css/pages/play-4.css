@@ -37,9 +37,9 @@ body::-webkit-scrollbar {
 .big_card {
   height: 98dvh;
   background-image: url(../../images/Aspettando\ Godot.jpg);
-  background-size: 36%;
+  background-size: 26%;
   background-repeat: no-repeat;
-  background-position: 85% 75%;
+  background-position: 50% 55%;
   display: flex;
   height: 98dvh;
   width: 100dvw;
@@ -93,7 +93,7 @@ p {
 .title {
   position: absolute;
   font-size: 48px;
-  top: 25%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
