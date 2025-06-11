@@ -1,0 +1,99 @@
+body {
+  background-color: black;
+  height: 100dvh;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  width: 99%;
+  height: auto;
+  border-radius: 4px;
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav_element {
+  color: white;
+  font-style: normal;
+  padding-right: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav_element p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.big_card {
+  height: 98dvh;
+  background-image: url(../../images/Aspettando\ Godot.jpg);
+  background-size: 36%;
+  background-repeat: no-repeat;
+  background-position: 85% 75%;
+  display: flex;
+  height: 98dvh;
+  width: 100dvw;
+  position: relative;
+}
+
+.description {
+  height: 110dvh;
+  border: 0.2px solid white;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 55px 25px;
+}
+
+.column-item {
+  font-size: 42px;
+  height: 120.5px;
+  margin: 36px 15px;
+}
+
+.column-2-item {
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  margin: 36px 15px;
+  height: 120.5px;
+}
+
+.footer {
+  height: 40dvh;
+  border: 0.2px solid white;
+  margin: 0 80px;
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+
+p {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 15px;
+  text-shadow: 2px 2px 2px rgb(43, 42, 42);
+}
+
+.title {
+  position: absolute;
+  font-size: 48px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

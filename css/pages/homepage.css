@@ -63,7 +63,7 @@ body::-webkit-scrollbar {
 .big_card_4 {
   background-image: url(../../images/Aspettando\ Godot.jpg);
   background-size: 36%;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center;
   display: flex;
   padding-top: 80dvh;
