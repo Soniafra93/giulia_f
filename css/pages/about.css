@@ -37,6 +37,30 @@ body::-webkit-scrollbar {
 .main {
   height: 98dvh;
   border: 1px solid white;
+  display: flex;
+  gap: 2dvw;
+}
+
+.foto {
+  background-image: url(../../images/Giulia\ 2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 98dvh;
+  width: 50dvw;
+}
+
+.text {
+  width: 35dvw;
+  margin-top: 20dvh;
+  font-family: "Space Mono", monospace;
+  font-size: small;
+  line-height: 1.8;
+}
+
+.text .name {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+  margin-bottom: -2dvh;
 }
 
 .footer {
