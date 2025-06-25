@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  height: 100dvh;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  width: 99%;
+  height: auto;
+  border-radius: 4px;
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav_element {
+  color: white;
+  font-style: normal;
+  padding-right: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav_element p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.main {
+  height: 98dvh;
+  border: 1px solid white;
+}
+
+.play-card {
+  border: 1px solid white;
+  width: 50dvw;
+  height: 50dvh;
+  margin: 22dvh auto;
+  background-image: url(./../../images/A\ Tailor\ for\ Ladies.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+}
+
+.footer {
+  height: 40dvh;
+  margin: 0 80px;
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+
+p {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 15px;
+  text-shadow: 2px 2px 2px rgb(43, 42, 42);
+}
