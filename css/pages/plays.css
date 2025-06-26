@@ -37,18 +37,44 @@ body::-webkit-scrollbar {
 .main {
   height: 98dvh;
   border: 1px solid white;
+  display: flex;
+  width: 200dvw;
 }
 
 .play-card {
-  border: 1px solid white;
-  width: 50dvw;
+  width: 60dvw;
   height: 50dvh;
-  margin: 22dvh auto;
+  margin: 24dvh auto;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.115);
+  box-shadow: 2px 2 px 2px white;
+  border-radius: 16px;
+}
+
+.card-text {
+  width: 30dvw;
+  margin: 8dvh 0;
+  padding: 0 5dvh;
+}
+
+.card-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 26px;
+}
+
+.card-description {
+  font-family: "Space Mono", monospace;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.card-foto {
+  width: 30dvw;
   background-image: url(./../../images/A\ Tailor\ for\ Ladies.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.6;
+  margin-right: 2dvw;
 }
 
 .footer {
