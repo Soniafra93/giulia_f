@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
   height: 98dvh;
   border: 1px solid white;
   display: flex;
-  width: 200dvw;
+  width: 400dvw;
 }
 
 .play-card {
@@ -47,8 +47,8 @@ body::-webkit-scrollbar {
   margin: 24dvh auto;
   display: flex;
   background-color: rgba(255, 255, 255, 0.115);
-  box-shadow: 2px 2 px 2px white;
   border-radius: 16px;
+  box-shadow: 20px 20px 30px rgba(255, 255, 255, 0.254);
 }
 
 .card-text {
@@ -70,11 +70,38 @@ body::-webkit-scrollbar {
 
 .card-foto {
   width: 30dvw;
+}
+
+#foto-1 {
   background-image: url(./../../images/A\ Tailor\ for\ Ladies.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 2dvw;
+}
+
+#foto-2 {
+  background-image: url(./../../images/Giulia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 16px 16px 0;
+}
+
+#foto-3 {
+  background-image: url(./../../images/girotondo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 16px 16px 0;
+}
+
+#foto-4 {
+  background-image: url(./../../images/Aspettando\ Godot.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 16px 16px 0;
 }
 
 .footer {
