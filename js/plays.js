@@ -16,7 +16,7 @@ let scrollTween = gsap.to(sections, {
 });
 
 sections.forEach((section) => {
-  let text = section.querySelectorAll(".card-js .anim");
+  let text = section.querySelectorAll(".anim");
 
   gsap.from(text, {
     y: -130,

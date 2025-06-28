@@ -51,8 +51,7 @@ body::-webkit-scrollbar {
   margin: 24dvh auto;
   display: flex;
   border: 0.2px solid black;
-  background-color: rgba(255, 255, 255, 0.115);
-  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
   box-shadow: 20px 20px 30px rgba(255, 255, 255, 0.254);
 }
 
@@ -69,12 +68,16 @@ body::-webkit-scrollbar {
 .card-title {
   font-family: "Bebas Neue", sans-serif;
   font-size: 26px;
+  color: black;
+  text-shadow: none;
 }
 
 .card-description {
   font-family: "Space Mono", monospace;
   font-size: 12px;
   line-height: 1.6;
+  color: black;
+  text-shadow: none;
 }
 
 .card-foto {
@@ -94,7 +97,6 @@ body::-webkit-scrollbar {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 0 16px 16px 0;
 }
 
 #foto-3 {
@@ -102,7 +104,6 @@ body::-webkit-scrollbar {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 0 16px 16px 0;
 }
 
 #foto-4 {
@@ -110,7 +111,6 @@ body::-webkit-scrollbar {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 0 16px 16px 0;
 }
 
 .footer {
