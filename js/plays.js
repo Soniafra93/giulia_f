@@ -10,7 +10,25 @@ let scrollTween = gsap.to(sections, {
   scrollTrigger: {
     trigger: ".main",
     pin: true,
-    scrub: 3,
-    end: "+=300",
+    scrub: 1,
+    end: "+=2000",
   },
+});
+
+sections.forEach((section) => {
+  let text = section.querySelectorAll(".card-js .anim");
+
+  gsap.from(text, {
+    y: -130,
+    opacity: 0,
+    duration: 2,
+    ease: "elastic.out(1,0.4)",
+    stagger: 0.1,
+    scrollTrigger: {
+      trigger: section,
+      containerAnimation: scrollTween,
+      start: "left center",
+      toggleActions: "play none none reverse",
+    },
+  });
 });
