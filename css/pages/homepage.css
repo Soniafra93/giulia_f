@@ -35,17 +35,28 @@ body::-webkit-scrollbar {
 .main-card {
   height: 98dvh;
   width: 100dvw;
-  background-image: url(./../../images/Giulia\ 2.jpg);
+  background-image: linear-gradient(
+      to left,
+      rgb(0, 0, 0, 0),
+      rgb(0, 0, 0, 0.2),
+      rgb(0, 0, 0, 1)
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(0, 0, 0, 0),
+      rgb(0, 0, 0, 0),
+      rgb(0, 0, 0, 0.2)
+    ),
+    url(./../../images/Giulia\ 2.jpg);
   background-size: cover;
   background-size: 80vw 100vw;
   background-repeat: no-repeat;
-  background-position: right center;
-  opacity: 0.8;
+  background-position: right;
+  opacity: 1;
 }
 
 .description {
   margin: 100px 0;
-  border: 0.1px solid white;
   border-radius: 4px;
   padding: 0 40px;
 }
