@@ -64,11 +64,23 @@ body::-webkit-scrollbar {
 .name {
   position: relative;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 48px;
+  font-size: 52px;
   top: 2%;
   right: -2%;
   width: 40dvw;
   display: block;
+}
+
+.role {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  top: 3%;
+  right: -3%;
+  width: 40dvw;
+  display: block;
+  font-weight: 100;
+  letter-spacing: 12px;
 }
 
 .description {
