@@ -56,6 +56,19 @@ body::-webkit-scrollbar {
   opacity: 1;
 }
 
+.fade-in-image {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .main-card p {
   margin: 0;
   width: 40dvw;
