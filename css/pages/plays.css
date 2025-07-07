@@ -113,6 +113,13 @@ body::-webkit-scrollbar {
   background-position: center;
 }
 
+#foto-5 {
+  background-image: url(./../../images/Dead-Mans-Phone-Title-Card-web-1024x571.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .footer {
   height: 40dvh;
   margin: 0 80px;
