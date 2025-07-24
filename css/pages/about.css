@@ -36,7 +36,6 @@ body::-webkit-scrollbar {
 
 .main {
   height: 98dvh;
-  border: 1px solid white;
   display: flex;
   gap: 2dvw;
 }
@@ -45,28 +44,33 @@ body::-webkit-scrollbar {
   background-image: url(../../images/Giulia-\ reduced\ size.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 78dvh;
+  height: 98dvh;
   width: 50dvw;
-  margin: auto 8vw;
+  margin: auto 0;
 }
 
 .text {
   width: 35dvw;
   margin-top: 20dvh;
-  margin-left: -22vw;
   font-family: "Space Mono", monospace;
-  font-size: small;
-  line-height: 1.8;
+  line-height: 2;
+  color: white;
 }
 
 .text .name {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 48px;
+  font-size: 68px;
   margin-bottom: -2dvh;
+  margin-left: -22vw;
+}
+
+#small-bio {
+  margin: 40px 0 0 -100px;
+  line-height: 2.4;
+  font-size: 14px;
 }
 
 .description {
-  border: 0.1px solid white;
   border-radius: 4px;
   margin: 0;
 }
@@ -102,7 +106,7 @@ body::-webkit-scrollbar {
   font-family: "Space Mono", monospace;
   font-size: 14px;
   line-height: 30px;
-  margin: 36px 10px 0 -5vw;
+  margin: 36px 20px 0 -5vw;
   height: 280px;
 }
 
@@ -110,7 +114,7 @@ body::-webkit-scrollbar {
   font-family: "Space Mono", monospace;
   font-size: 14px;
   line-height: 30px;
-  margin: 36px 10px 0 -5vw;
+  margin: 36px 20px 0 -5vw;
   height: 280px;
 }
 
@@ -118,13 +122,13 @@ body::-webkit-scrollbar {
   font-family: "Space Mono", monospace;
   font-size: 14px;
   line-height: 30px;
-  margin: 36px 10px 0 -5vw;
+  margin: 36px 20px 0 -5vw;
   height: 120px;
 }
 
 .footer {
   height: 40dvh;
-  margin: 0 80px;
+  margin: 160px 80px;
   font-family: "Bebas Neue", sans-serif;
   display: flex;
   justify-content: flex-end;
