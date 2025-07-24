@@ -36,8 +36,10 @@ body::-webkit-scrollbar {
 
 .big_card {
   height: 98dvh;
-  background-image: url(../../images/Giulia.jpg);
-  background-size: contain;
+  background-image: url(../../images/Dead-Mans-Phone-Title-Card-web-1024x571.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   height: 98dvh;
   width: 100dvw;
