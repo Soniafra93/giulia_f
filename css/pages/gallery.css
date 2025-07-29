@@ -3,10 +3,10 @@
   width: 80%;
   margin: auto;
   padding: 70px 0;
+  height: 250dvh;
 }
 
 .gallery {
-  height: 200dvh;
   display: flex;
   gap: 20px;
 }
@@ -16,7 +16,6 @@
   flex-direction: column;
   gap: 20px;
   padding: 0;
-  column-width: 200px;
 }
 
 .photo img {
