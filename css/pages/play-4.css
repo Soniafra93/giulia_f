@@ -47,7 +47,6 @@ body::-webkit-scrollbar {
 }
 
 .description {
-  border: 0.2px solid white;
   border-radius: 4px;
   margin: 20dvh 0;
 }
@@ -76,7 +75,6 @@ body::-webkit-scrollbar {
 
 .footer {
   height: 40dvh;
-  border: 0.2px solid white;
   margin: 0 80px;
   font-family: "Bebas Neue", sans-serif;
   display: flex;
