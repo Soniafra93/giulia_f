@@ -80,50 +80,78 @@ body::-webkit-scrollbar {
 }
 
 .column {
+  margin-top: 10dvh;
   flex: 50%;
   padding: 55px 25px;
 }
 
 .column-item-1 {
   font-size: 42px;
-  height: 280px;
+  height: 60dvh;
   margin: 36px 7vw;
+  width: fit-content;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 1.2s steps(3) forwards;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 200px;
+  }
 }
 
 .column-item-2 {
   font-size: 42px;
-  height: 280px;
+  height: 60dvh;
   margin: 36px 7vw;
+  width: fit-content;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 0.7s steps(8, end) forwards;
 }
 
 .column-item-3 {
   font-size: 42px;
-  height: 120px;
+  height: 60dvh;
   margin: 36px 7vw;
+  width: fit-content;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 0.7s steps(13, end) forwards;
 }
 
 .column-2-item-1 {
   font-family: "Space Mono", monospace;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 35px;
   margin: 36px 20px 0 -5vw;
-  height: 280px;
+  height: 60dvh;
 }
 
 .column-2-item-2 {
   font-family: "Space Mono", monospace;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 35px;
   margin: 36px 20px 0 -5vw;
-  height: 280px;
+  height: 60dvh;
 }
 
 .column-2-item-3 {
   font-family: "Space Mono", monospace;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 35px;
   margin: 36px 20px 0 -5vw;
-  height: 120px;
+  height: 60dvh;
 }
 
 .footer {
