@@ -71,6 +71,7 @@ body::-webkit-scrollbar {
   font-size: 14px;
   margin: 36px 15px;
   height: 120.5px;
+  width: 40dvw;
 }
 
 .footer {
@@ -95,4 +96,28 @@ p {
   top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact {
+  border: 0.1px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  text-shadow: none;
+  padding: 10px 15px;
+  margin-top: 8px;
+  margin-left: -15px;
+}
+
+#contact:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+  a {
+    color: black;
+  }
 }

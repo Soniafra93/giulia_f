@@ -139,3 +139,27 @@ p {
   margin-right: 15px;
   text-shadow: 2px 2px 2px rgb(43, 42, 42);
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact {
+  border: 0.1px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  text-shadow: none;
+  padding: 10px 15px;
+  margin-top: 8px;
+  margin-left: -15px;
+}
+
+#contact:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+  a {
+    color: black;
+  }
+}
