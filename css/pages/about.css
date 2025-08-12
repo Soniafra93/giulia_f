@@ -45,29 +45,27 @@ body::-webkit-scrollbar {
   background-size: contain;
   background-repeat: no-repeat;
   height: 98dvh;
-  width: 50dvw;
+  width: 38dvw;
   margin: auto 0;
+  opacity: 0.9;
 }
 
 .text {
-  width: 35dvw;
-  margin-top: 20dvh;
   font-family: "Space Mono", monospace;
-  line-height: 2;
+  line-height: 1.8;
   color: white;
+  width: 40dvw;
 }
 
-.text .name {
+.name {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 68px;
-  margin-bottom: -2dvh;
-  margin-left: -22vw;
+  font-size: 78px;
+  padding-top: 0;
 }
 
 #small-bio {
-  margin: 40px 0 0 -100px;
-  line-height: 2.4;
-  font-size: 14px;
+  font-size: 12px;
+  margin-top: 40dvh;
 }
 
 .description {
@@ -81,18 +79,15 @@ body::-webkit-scrollbar {
 
 .column {
   margin-top: 10dvh;
-  flex: 50%;
   padding: 55px 25px;
 }
 
-.column-item-1 {
-  font-size: 42px;
-  height: 60dvh;
-  margin: 36px 7vw;
-  width: fit-content;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 1.2s steps(3) forwards;
+#column-1 {
+  width: 35%;
+}
+
+#column-2 {
+  flex: 1 0 0%;
 }
 
 @keyframes blink {
@@ -112,7 +107,7 @@ body::-webkit-scrollbar {
 
 .column-item-2 {
   font-size: 42px;
-  height: 60dvh;
+  height: 40dvh;
   margin: 36px 7vw;
   width: fit-content;
   white-space: nowrap;
@@ -122,7 +117,7 @@ body::-webkit-scrollbar {
 
 .column-item-3 {
   font-size: 42px;
-  height: 60dvh;
+  height: 40dvh;
   margin: 36px 7vw;
   width: fit-content;
   white-space: nowrap;
@@ -130,28 +125,22 @@ body::-webkit-scrollbar {
   animation: typing 0.7s steps(13, end) forwards;
 }
 
-.column-2-item-1 {
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
-  line-height: 35px;
-  margin: 36px 20px 0 -5vw;
-  height: 60dvh;
-}
-
 .column-2-item-2 {
   font-family: "Space Mono", monospace;
-  font-size: 14px;
-  line-height: 35px;
-  margin: 36px 20px 0 -5vw;
-  height: 60dvh;
+  font-size: 13px;
+  margin-top: 36px;
+  line-height: 30px;
+  height: 40dvh;
+  width: 40dvw;
 }
 
 .column-2-item-3 {
   font-family: "Space Mono", monospace;
-  font-size: 14px;
-  line-height: 35px;
-  margin: 36px 20px 0 -5vw;
-  height: 60dvh;
+  font-size: 13px;
+  margin-top: 36px;
+  line-height: 30px;
+  height: 40dvh;
+  width: 40dvw;
 }
 
 .footer {
@@ -168,4 +157,9 @@ p {
   font-weight: 400;
   margin-right: 15px;
   text-shadow: 2px 2px 2px rgb(43, 42, 42);
+  opacity: 0.8;
+}
+
+strong {
+  font-size: 15px;
 }
