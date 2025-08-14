@@ -122,12 +122,78 @@ body::-webkit-scrollbar {
 }
 
 .footer {
+  background-color: white;
+  border-radius: 6px;
   position: static;
-  height: 40dvh;
-  margin: 40px 80px;
+  height: 50dvh;
+  margin: 5px 0;
   font-family: "Bebas Neue", sans-serif;
   display: flex;
-  justify-content: flex-end;
+}
+
+.footer-box {
+  width: 80%;
+  height: fit-content;
+  padding: 30px 0;
+  margin: auto;
+  border: 0.2px solid rgb(214, 211, 200);
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+}
+
+.icons {
+  width: fit-content;
+  display: flex;
+  font-size: 24px;
+  color: black;
+}
+
+#giu {
+  font-size: 28px;
+  color: black;
+  text-shadow: none;
+  margin: 36px 2px 10px 2px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.icons-media {
+  margin-left: 5dvw;
+  width: fit-content;
+}
+
+.icons-media p {
+  font-size: 10px;
+  color: black;
+  text-shadow: none;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 60px;
+  margin-left: 2px;
+  width: 18dvw;
+}
+
+#mail {
+  width: 28px;
+  height: 28px;
+  margin-top: -2px;
+}
+
+.media {
+  margin: auto 25dvw;
+  padding-block: 20px;
+}
+
+.media-item {
+  color: black;
+  text-shadow: none;
+  font-weight: 200;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#contact-footer {
+  color: black;
+  text-decoration: none;
 }
 
 p {
