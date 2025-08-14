@@ -5,21 +5,48 @@
     <meta name="description" content="Giulia Frani's Website" />
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./css/pages/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <script src="./js/index.js"></script>
   </head>
-  <body onclick="location.href='homepage.html';">
-    <div class="title">
-      <p id="name">GIULIA FRANI</p>
+  <body>
+    <div class="navbar">
+      <div class="nav_element" onclick="location.href='index.html';">
+        <p>HOME</p>
+      </div>
+      <div class="nav_element" onclick="location.href='plays.html';">
+        <p>PLAYS</p>
+      </div>
+      <div class="nav_element" onclick="location.href='gallery.html';">
+        <p>GALLERY</p>
+      </div>
+      <div class="nav_element" onclick="location.href='about.html'">
+        <p>ABOUT</p>
+      </div>
+      <div class="nav_element">
+        <p id="contact"><a href="mailto:franigiulia93@gmail.com">CONTACT</a></p>
+      </div>
     </div>
-
-    <div class="presentation">
-      <h5>Italian actress based between London and Italy</h5>
+    <div class="fade-in-image">
+      <div class="main-card">
+        <span class="name"><p>GIULIA FRANI</p></span>
+        <span class="role"><p>ACTRESS</p></span>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="media">
+        <p>MEDIA</p>
+        <p class="media-item">INSTAGRAM</p>
+        <p class="media-item">LINKEDIN</p>
+      </div>
     </div>
   </body>
+  <script src="./js/homepage.js"></script>
 </html>
