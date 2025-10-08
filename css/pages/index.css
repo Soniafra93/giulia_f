@@ -1,6 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 95%;
+}
+
 body {
   background-color: black;
   height: 100dvh;
+  min-height: 800px;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -11,11 +22,15 @@ body::-webkit-scrollbar {
 }
 
 .navbar {
-  width: 99%;
+  width: 95%;
+  max-width: 1200px;
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
   height: auto;
   border-radius: 4px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   position: fixed;
   z-index: 1;
 }
@@ -23,7 +38,7 @@ body::-webkit-scrollbar {
 .nav_element {
   color: white;
   font-style: normal;
-  padding-right: 15px;
+  padding-right: 2.5rem;
   cursor: pointer;
 }
 
@@ -37,24 +52,27 @@ body::-webkit-scrollbar {
   background-color: rgba(255, 255, 255, 0);
   color: white;
   text-shadow: none;
-  padding: 10px 15px;
-  margin-top: 8px;
-  margin-left: -15px;
+  padding: 1rem 1.5rem;
+  margin-top: 0.8rem;
+  margin-left: -1.5rem;
 }
 
 #contact:hover {
   background-color: white;
   color: black;
   transition: all 0.3s ease-in-out;
-  a {
-    color: black;
-  }
+}
+
+#contact:hover a {
+  color: black;
 }
 
 .main-card {
   position: static;
   height: 100dvh;
-  width: 100dvw;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(./../../images/Giulia\ 2.jpg);
   background-image: linear-gradient(
       to left,
       rgb(0, 0, 0, 0),
@@ -65,11 +83,16 @@ body::-webkit-scrollbar {
       to bottom,
       rgb(0, 0, 0, 0),
       rgb(0, 0, 0, 0),
-      rgb(0, 0, 0, 0.2)
+      rgb(0, 0, 0, 0.8)
+    ),
+    linear-gradient(
+      to right,
+      rgb(0, 0, 0, 0),
+      rgb(0, 0, 0, 0.2),
+      rgb(0, 0, 0, 0.9)
     ),
     url(./../../images/Giulia\ 2.jpg);
   background-size: cover;
-  background-size: 80vw 100vw;
   background-repeat: no-repeat;
   background-position: right;
   opacity: 1;
@@ -90,7 +113,6 @@ body::-webkit-scrollbar {
 
 .main-card p {
   margin: 0;
-  width: 40dvw;
 }
 
 .name {
@@ -99,7 +121,6 @@ body::-webkit-scrollbar {
   font-size: 52px;
   top: 2%;
   right: -2%;
-  width: 40dvw;
   display: block;
 }
 
@@ -109,23 +130,18 @@ body::-webkit-scrollbar {
   font-size: 18px;
   top: 3%;
   right: -3%;
-  width: 40dvw;
   display: block;
   font-weight: 100;
-  letter-spacing: 12px;
-}
-
-.description {
-  margin: 100px 0;
-  border-radius: 4px;
-  margin: 0 40px;
+  letter-spacing: 1.2rem;
 }
 
 .footer {
+  width: 95%;
+  max-width: 1200px;
   background-color: white;
   position: static;
-  height: 50dvh;
-  margin: 5px 0;
+  height: 50rem;
+  margin: 0.5rem auto;
   font-family: "Bebas Neue", sans-serif;
   display: flex;
 }
@@ -187,6 +203,7 @@ body::-webkit-scrollbar {
   font-weight: 200;
   letter-spacing: 2px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 #contact-footer {
