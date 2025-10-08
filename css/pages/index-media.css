@@ -1,0 +1,42 @@
+@media (max-width: 65em) {
+  /*screens smaller than 1030px
+  1030px/16xp = 65rem*/
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 47em) {
+  /*screen smaller than 750px
+  750/16 = 47rem*/
+  html {
+    font-size: 40%;
+  }
+
+  .main-card {
+    border: 1px solid red;
+  }
+
+  .menu-icon {
+    display: block;
+    margin-top: 2rem;
+  }
+
+  .nav_element {
+    display: none;
+  }
+
+  .navbar {
+    position: absolute;
+  }
+
+  .name {
+    right: -6%;
+    font-size: 8rem;
+  }
+
+  .role {
+    right: -6%;
+    font-size: 3.6rem;
+  }
+}
