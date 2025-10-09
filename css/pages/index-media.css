@@ -14,12 +14,34 @@
   }
 
   .main-card {
-    border: 1px solid red;
+    height: 100vh;
+    max-height: 85rem;
+    width: 100%;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0, 0),
+        rgb(0, 0, 0, 0),
+        rgb(0, 0, 0, 0.8)
+      ),
+      linear-gradient(
+        to right,
+        rgb(0, 0, 0, 0),
+        rgb(0, 0, 0, 0.2),
+        rgb(0, 0, 0, 0.9)
+      ),
+      url(./../../images/Giulia\ 2.jpg);
   }
 
   .menu-icon {
     display: block;
-    margin-top: 2rem;
+    position: fixed;
+    top: 3rem;
+    left: 2rem;
+    font-size: 6rem;
+    animation: none !important;
+    opacity: 1 !important;
+    z-index: 2000;
+    background-color: rgb(31, 31, 31, 0.2);
   }
 
   .nav_element {
@@ -31,12 +53,82 @@
   }
 
   .name {
-    right: -6%;
-    font-size: 8rem;
+    font-size: 6.5rem;
+    top: 3%;
+    transform: translateX(30%);
   }
 
   .role {
-    right: -6%;
-    font-size: 3.6rem;
+    font-size: 2.6rem;
+    top: 2.2%;
+    transform: translateX(32%);
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center; /* center footer-box itself */
+    width: 100%;
+    border: none;
+  }
+
+  .footer-box {
+    display: flex;
+    flex-direction: column; /* stack children vertically */
+    align-items: center; /* horizontal centering */
+    justify-content: center; /* vertical centering if needed */
+    width: 100%; /* fill parent */
+    max-width: none; /* allow full width on mobile */
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center; /* center inline text */
+    background-color: white;
+  }
+
+  .icons-media {
+    display: flex;
+    flex-direction: column; /* stack text + icons */
+    align-items: center; /* center children horizontally */
+    width: 100%;
+    margin: 0;
+  }
+
+  #giu {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 1.4rem 0;
+    font-size: 6rem; /* adjust size for mobile */
+  }
+
+  .icons {
+    display: flex; /* flex row for icons */
+    justify-content: center; /* horizontal centering */
+    gap: 1rem; /* spacing between icons */
+    width: 100%;
+    font-size: 5.5rem; /* adjust size for mobile */
+    margin: 0 0 8rem 0;
+  }
+
+  .icons-media p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 4rem 0;
+    font-size: 2.1rem; /* adjust for mobile */
+  }
+
+  .media {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    padding: 0 0 2rem 0;
+    width: 100%;
+  }
+
+  .media-item {
+    font-size: 3.6rem; /* adjust for mobile */
+    margin: 0.5rem 0;
   }
 }
