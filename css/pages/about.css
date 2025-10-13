@@ -51,6 +51,31 @@ body::-webkit-scrollbar {
   font-weight: 500;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2dvw;
+  padding-block: 10rem;
+}
+
+.grid-item {
+  padding: 6rem;
+}
+
+.grid-title {
+  margin-top: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4.8rem;
+  padding-top: 0;
+}
+
+.grid-text {
+  font-family: "Space Mono", monospace;
+  font-size: 1.5rem;
+  line-height: 2.2;
+  margin-top: 0;
+}
+
 .main {
   height: 98dvh;
   display: flex;
@@ -67,44 +92,15 @@ body::-webkit-scrollbar {
   opacity: 0.9;
 }
 
-.text {
-  font-family: "Space Mono", monospace;
-  line-height: 1.8;
-  color: white;
-  width: 40dvw;
-}
-
-.name {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 7.8rem;
-  padding-top: 0;
-}
-
 #small-bio {
   font-size: 1.2rem;
   margin-top: 40dvh;
+  font-family: "Space Mono", monospace;
 }
 
 .description {
   border-radius: 4px;
   margin: 0;
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  margin-top: 10dvh;
-  padding: 5.5rem 2.5rem;
-}
-
-#column-1 {
-  width: 35%;
-}
-
-#column-2 {
-  flex: 1 0 0%;
 }
 
 @keyframes blink {
@@ -120,44 +116,6 @@ body::-webkit-scrollbar {
   to {
     width: 200px;
   }
-}
-
-.column-item-2 {
-  font-size: 4.2rem;
-  height: 40dvh;
-  margin: 3.6rem 7vw;
-  width: fit-content;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 0.7s steps(8, end) forwards;
-}
-
-.column-item-3 {
-  font-size: 4.2rem;
-  height: 40dvh;
-  margin: 3.6rem 7vw;
-  width: fit-content;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 0.7s steps(13, end) forwards;
-}
-
-.column-2-item-2 {
-  font-family: "Space Mono", monospace;
-  font-size: 1.3rem;
-  margin-top: 3.6rem;
-  line-height: 3rem;
-  height: 40dvh;
-  width: 40dvw;
-}
-
-.column-2-item-3 {
-  font-family: "Space Mono", monospace;
-  font-size: 1.3rem;
-  margin-top: 3.6rem;
-  line-height: 3rem;
-  height: 40dvh;
-  width: 40dvw;
 }
 
 strong {
