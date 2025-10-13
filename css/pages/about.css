@@ -72,7 +72,7 @@ body::-webkit-scrollbar {
 .grid-text {
   font-family: "Space Mono", monospace;
   font-size: 1.5rem;
-  line-height: 2.2;
+  line-height: 1.6;
   margin-top: 0;
 }
 
@@ -90,6 +90,14 @@ body::-webkit-scrollbar {
   width: 38dvw;
   margin: auto 0;
   opacity: 0.9;
+}
+
+.name {
+  font-size: 6.5rem;
+  margin: 0;
+  padding-top: 20dvh;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(43, 42, 42);
 }
 
 #small-bio {
