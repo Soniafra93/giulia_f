@@ -140,11 +140,21 @@
   }
 
   .grid-item {
-    padding-block: 1rem;
+    padding-block: 0.8rem;
+    padding-inline: 2.1rem;
   }
 
   .grid-title {
     margin-bottom: 0;
+  }
+
+  .grid-text {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+
+  strong {
+    font-size: 2.2rem;
   }
 
   #item-margin {
