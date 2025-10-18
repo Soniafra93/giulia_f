@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: black;
   height: 100dvh;
@@ -23,14 +27,14 @@ body::-webkit-scrollbar {
 .nav_element {
   color: white;
   font-style: normal;
-  padding-right: 15px;
+  padding-right: 1.5rem;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
 .nav_element p {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
@@ -51,32 +55,35 @@ body::-webkit-scrollbar {
   margin: 20dvh 0;
 }
 
-.row {
-  display: flex;
+.grid-play {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2dvw;
+  padding-block: 4rem;
+  margin: 8rem 14rem;
 }
 
-.column {
-  flex: 50%;
-  padding: 55px 25px;
+.grid-item-play {
+  padding: 6rem;
 }
 
-.column-item {
-  font-size: 42px;
-  height: 120.5px;
-  margin: 36px 7vw;
+.grid-title-play {
+  margin-top: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.8rem;
+  padding-top: 0;
 }
 
-.column-2-item {
+.grid-text-play {
   font-family: "Space Mono", monospace;
-  font-size: 14px;
-  margin: 36px 15px;
-  height: 120.5px;
-  width: 40dvw;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-top: 0;
 }
 
 .footer {
   height: 40dvh;
-  margin: 0 80px;
+  margin: 0 8rem;
   font-family: "Bebas Neue", sans-serif;
   display: flex;
   justify-content: flex-end;
@@ -86,13 +93,13 @@ p {
   color: white;
   font-style: normal;
   font-weight: 400;
-  margin-right: 15px;
-  text-shadow: 2px 2px 2px rgb(43, 42, 42);
+  margin-right: 1.5rem;
+  text-shadow: 0.2rem 0.2rem 0.2rem rgb(43, 42, 42);
 }
 
 .title {
   position: absolute;
-  font-size: 48px;
+  font-size: 4.8rem;
   top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -108,9 +115,9 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
   color: white;
   text-shadow: none;
-  padding: 10px 15px;
-  margin-top: 8px;
-  margin-left: -15px;
+  padding: 1rem 1.5rem;
+  margin-top: 0.8rem;
+  margin-left: -1.5rem;
 }
 
 #contact:hover {
@@ -126,7 +133,7 @@ a {
   background-color: white;
   position: static;
   height: 50dvh;
-  margin: 5px 0;
+  margin: 0.5rem 0;
   font-family: "Bebas Neue", sans-serif;
   display: flex;
 }
@@ -134,10 +141,10 @@ a {
 .footer-box {
   width: 80%;
   height: fit-content;
-  padding: 30px 0;
+  padding: 3rem 0;
   margin: auto;
   border: 0.2px solid rgb(214, 211, 200);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0rem 0.8rem 2.4rem;
   display: flex;
 }
 
@@ -145,15 +152,15 @@ a {
   width: fit-content;
   display: flex;
   gap: 1dvw;
-  font-size: 24px;
+  font-size: 2.4rem;
   color: black;
 }
 
 #giu {
-  font-size: 28px;
+  font-size: 2.8rem;
   color: black;
   text-shadow: none;
-  margin: 36px 2px 10px 2px;
+  margin: 3.6rem 0.2rem 1rem 0.2rem;
   font-family: "Bebas Neue", sans-serif;
 }
 
@@ -163,31 +170,31 @@ a {
 }
 
 .icons-media p {
-  font-size: 10px;
+  font-size: 1rem;
   color: black;
   text-shadow: none;
   font-family: "Space Mono", monospace;
-  margin-bottom: 60px;
-  margin-left: 2px;
+  margin-bottom: 6rem;
+  margin-left: 0.2rem;
   width: 18dvw;
 }
 
 #mail {
-  width: 28px;
-  height: 28px;
-  margin-top: -2px;
+  width: 2.8rem;
+  height: 2.8rem;
+  margin-top: -0.2rem;
 }
 
 .media {
   margin: auto 25dvw;
-  padding-block: 20px;
+  padding-block: 2rem;
 }
 
 .media-item {
   color: black;
   text-shadow: none;
   font-weight: 200;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   cursor: pointer;
 }
 
@@ -200,8 +207,8 @@ p {
   color: white;
   font-style: normal;
   font-weight: 400;
-  margin-right: 15px;
-  text-shadow: 2px 2px 2px rgb(43, 42, 42);
+  margin-right: 1.5rem;
+  text-shadow: 0.2rem 0.2rem 0.2rem rgb(43, 42, 42);
 }
 
 a {
