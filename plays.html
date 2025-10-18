@@ -19,6 +19,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
+    <button class="menu-icon" id="menu-toggle">
+      <svg
+        width="30"
+        height="30"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M4 18h7M4 6h16H4Zm0 6h16H4Z"></path>
+      </svg>
+    </button>
+    <div id="phone-menu">
+      <p class="menu-item" onclick="location.href='index.html';">HOME</p>
+      <p class="menu-item" onclick="location.href='plays.html';">PLAYS</p>
+      <p class="menu-item" onclick="location.href='gallery.html';">GALLERY</p>
+      <p class="menu-item" onclick="location.href='about.html';">ABOUT</p>
+      <p class="menu-item">
+        <a href="mailto:franigiulia93@gmail.com">CONTACT</a>
+      </p>
+    </div>
     <div class="navbar">
       <div class="nav_element" onclick="location.href='index.html';">
         <p>HOME</p>
@@ -146,4 +170,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
     <script src="./js/plays.js"></script>
   </body>
+  <script src="./js/homepage.js"></script>
 </html>

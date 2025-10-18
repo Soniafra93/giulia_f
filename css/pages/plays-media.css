@@ -16,7 +16,7 @@
   .card-text {
     margin-top: 2rem;
     padding: 0 2rem;
-    width: 52rem;
+    width: 50rem;
   }
 }
 
@@ -103,7 +103,44 @@
   .card-description {
     font-size: 0.9rem;
   }
-}
+
+  .menu-icon {
+    display: block;
+    position: fixed;
+    top: 3rem;
+    left: 2rem;
+    font-size: 6rem;
+    animation: none !important;
+    opacity: 1 !important;
+    z-index: 2000;
+    background-color: rgb(31, 31, 31, 0.2);
+  }
+
+  #phone-menu.show {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(31, 31, 31, 0.8);
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: start;
+    font-size: 3rem;
+    padding: 10rem 4rem 0 3.5rem;
+    animation: none !important;
+    opacity: 1 !important;
+    z-index: 1000;
+  }
+
+  .nav_element {
+    display: none;
+  }
+  .navbar {
+    position: absolute;
+  }
 
 @media (max-width: 43rem) {
   /*Screen smaller than 690px*/

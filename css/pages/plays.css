@@ -38,6 +38,19 @@ body::-webkit-scrollbar {
   font-weight: 500;
 }
 
+.menu-icon {
+  display: none;
+  background-color: black;
+  color: white;
+  font-size: 6.4rem;
+  border: none;
+  margin-right: 2rem;
+}
+
+#phone-menu {
+  display: none;
+}
+
 .wrapper {
   overflow: hidden;
   width: 400dvw;
