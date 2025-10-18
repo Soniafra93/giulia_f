@@ -71,7 +71,7 @@ body::-webkit-scrollbar {
 .card-text {
   text-align: start;
   width: 30dvw;
-  margin: 3dvh 0;
+  margin: 1rem 0;
   padding: 0 5dvh;
 }
 

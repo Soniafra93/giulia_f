@@ -1,3 +1,25 @@
+@media (max-width: 115rem) {
+  /*Screen smaller than 1840px*/
+  html {
+    font-size: 62%;
+  }
+
+  .play-card {
+    margin: 8% auto;
+  }
+
+  .card-foto {
+    width: 54rem;
+    margin: 0 auto;
+  }
+
+  .card-text {
+    margin-top: 2rem;
+    padding: 0 2rem;
+    width: 52rem;
+  }
+}
+
 @media (max-width: 79rem) {
   /*Screen smaller than 1270px*/
   html {
@@ -5,26 +27,46 @@
   }
 
   .play-card {
-    margin: 15% auto;
+    margin: 12% auto;
   }
 
   .card-foto {
-    height: 42dvh;
+    width: 50rem;
+    margin: 0 auto;
+  }
+
+  .card-text {
+    margin-top: 1rem;
+    padding: 0 3rem;
+    width: 44rem;
   }
 }
 
-@media (max-width: 79rem) {
+@media (max-width: 70rem) {
   /*Screen smaller than 1130px*/
   html {
     font-size: 56%;
   }
 
+  .play-card {
+    margin: 22% auto;
+  }
+
+  .card-foto {
+    height: 32dvh;
+    width: 72rem;
+    margin-top: 0;
+  }
+
   .card-text {
     margin-top: 1rem;
+    max-width: 95%;
+    padding: 0 2rem;
+    width: 66rem;
   }
 
   .card-description {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .card-foto {
@@ -40,11 +82,22 @@
   }
 
   .card-foto {
-    height: 30dvh;
+    width: 72rem;
+    margin-top: 0;
   }
 
   .card-text {
-    margin-top: 0;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    width: 62rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+
+  .play-card {
+    margin: 20rem auto;
+    border-radius: 20px;
+    border: none;
   }
 
   .card-description {
@@ -52,27 +105,29 @@
   }
 }
 
-@media (max-width: 50rem) {
-  /*Screen smaller than 800px*/
+@media (max-width: 43rem) {
+  /*Screen smaller than 690px*/
   html {
     font-size: 53%;
   }
 
   .card-foto {
-    height: 34dvh;
-    padding-inline: 2rem;
+    width: 39rem;
+    height: 30dvh;
+    margin-inline: auto;
     margin-top: 0;
   }
 
   .card-text {
-    width: 95%;
+    width: 38rem;
     padding: 0;
     margin-left: 1.8rem;
     margin-top: 0;
+    margin-bottom: 2rem;
   }
 
   .play-card {
-    margin: 20rem 5rem;
+    margin: 22rem auto;
     border-radius: 20px;
     border: none;
   }
