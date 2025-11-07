@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: black;
   height: 100dvh;
@@ -49,27 +53,30 @@ body::-webkit-scrollbar {
   margin: 20dvh 0;
 }
 
-.row {
-  display: flex;
+.grid-play {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2dvw;
+  padding-block: 4rem;
+  margin: 8rem 14rem;
 }
 
-.column {
-  flex: 50%;
-  padding: 55px 25px;
+.grid-item-play {
+  padding: 6rem;
 }
 
-.column-item {
-  font-size: 42px;
-  height: 120.5px;
-  margin: 36px 7vw;
+.grid-title-play {
+  margin-top: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.8rem;
+  padding-top: 0;
 }
 
-.column-2-item {
+.grid-text-play {
   font-family: "Space Mono", monospace;
-  font-size: 14px;
-  margin: 36px 15px;
-  height: 120.5px;
-  width: 40dvw;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-top: 0;
 }
 
 .footer {
@@ -187,6 +194,7 @@ a {
   font-weight: 200;
   letter-spacing: 2px;
   cursor: pointer;
+  font-size: 1.6rem;
 }
 
 #contact-footer {
