@@ -141,6 +141,7 @@
   .navbar {
     position: absolute;
   }
+}
 
 @media (max-width: 43rem) {
   /*Screen smaller than 690px*/
